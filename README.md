@@ -20,3 +20,13 @@ client.ts (The Bridge)
 This is the magic part. It creates an object (orpc) that you use in your React components. When you call orpc.notifications.listPushNotifications(...), it automatically bundles that up, sends a network request to your /rpc API route, runs the router code on the server, and sends the answer back.
 
 Analogy: The waiter. You tell them what you want, they run to the kitchen and bring back the food.
+
+
+
+initialy setup the service - schema - contract - router - custom hook - call where needed.
+
+service - src/lib/service/notificationService.ts
+schema - src/lib/service/rpc/schema.ts
+contract - src/lib/service/rpc/contract.ts
+router - src/lib/service/rpc/router.ts 
+custom hook - src/hooks/useNotificationStats.ts
