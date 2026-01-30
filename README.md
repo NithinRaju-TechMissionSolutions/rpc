@@ -26,7 +26,10 @@ Analogy: The waiter. You tell them what you want, they run to the kitchen and br
 initialy setup the service - schema - contract - router - custom hook - call where needed.
 
 service - src/lib/service/notificationService.ts
+
 schema - src/lib/service/rpc/schema.ts
+
 contract - src/lib/service/rpc/contract.ts
+
 router - src/lib/service/rpc/router.ts 
 custom hook - src/hooks/useNotificationStats.ts
